@@ -1,0 +1,265 @@
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 50px;
+  }
+  h1,
+  .h1 {
+    font-size: 5rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 3.8rem;
+  }
+
+  h3,
+  .h3 {
+    font-size: 2.2rem;
+  }
+
+  h4,
+  .h4 {
+    font-size: 1.5rem;
+    letter-spacing: 0.04em;
+    line-height: 1.72;
+  }
+
+  .h7 {
+    font-size: 1.3rem;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .h8 {
+    font-size: 2.2rem;
+  }
+
+  .header__container.middle-left {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "logo nav action";
+  }
+
+  .header__container.middle-center {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "nav logo action";
+  }
+
+  .header__topbar .container {
+    justify-content: center;
+  }
+
+  .header__topbar .container .login-btn {
+    right: 60px;
+  }
+
+  .header__nav {
+    position: static;
+    width: 100%;
+    height: 100% !important;
+    flex-direction: row;
+    transform: none;
+  }
+
+  .nav__list {
+    margin: 0;
+    margin-left: 50px;
+    gap: 16px;
+  }
+
+  .nav__item .nav__anchor {
+    padding: 0;
+  }
+
+  .nav__item .nav__anchor:hover {
+    text-decoration: dashed;
+    background-color: var(--color-bg);
+  }
+
+  .header__action {
+    gap: 24px;
+  }
+
+  .header__nav.active {
+    box-shadow: none;
+  }
+
+  .nav__items {
+    position: relative;
+  }
+
+  .header__subnav {
+    background-color: var(--color-bg);
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+    top: 100%;
+    min-width: 200px;
+    height: auto;
+    transform: translateX(0);
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .nav__items.open .header__subnav {
+    display: block;
+  }
+
+  .header__subnav .nav__item {
+    padding: 0;
+  }
+
+  .header__subnav .nav__anchor {
+    padding: 8px 16px;
+    line-height: 1;
+  }
+
+  .header__subnav .nav__anchor:hover {
+    background-color: var(--color-bg-2);
+  }
+
+  /* === banner === */
+  .banner__box.banner__small {
+    min-height: 420px;
+  }
+
+  .banner__box.banner__medium {
+    min-height: 560px;
+  }
+
+  .banner__box.banner__large {
+    min-height: 720px;
+  }
+
+  .banner__content {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+
+  /* === collage === */
+  .collage__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .collage__item--large {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  /* === footer === */
+  .block__heading {
+    text-align: left;
+  }
+
+  /* === product detail === */
+  .media__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .media__item:first-child {
+    grid-column: span 2;
+  }
+
+  .media__item:last-child {
+    grid-column: span 2;
+  }
+
+  .product-detail__info {
+    padding-left: 40px;
+  }
+
+  /* === blog === */
+  .blog__item--large {
+    text-align: center;
+  }
+
+  .blog__item--large .blog__image {
+    aspect-ratio: 16/9;
+  }
+
+  /* === cart === */
+  .cart__item {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "image title quantity total";
+  }
+
+  .cart__content .cart__image {
+    width: 100px;
+    height: 100px;
+    margin-right: 24px;
+  }
+
+  .cart__quantity {
+    width: 300px;
+  }
+
+  .cart__footer {
+    text-align: right;
+  }
+
+  /* customer feedback */
+  .customer-feedback {
+    margin-top: calc(60px - var(--gutter));
+  }
+
+  .customer-feedback ul li {
+    min-width: 40%;
+  }
+
+  .customer-feedback__content {
+    padding: 42px 32px;
+  }
+
+  .customer-feedback__date {
+    font-size: 1.2rem;
+  }
+
+  .customer-feedback__text {
+    padding-top: 12px;
+    font-size: 1.8rem;
+  }
+
+  .customer-feedback__evaluate {
+    padding-top: 12px;
+  }
+
+  .customer-feedback__name {
+    padding-top: 12px;
+  }
+
+  .customer-feedback ol li a {
+    height: 15px;
+    width: 15px;
+    padding: 0 4px;
+  }
+
+  /* === start page article === */
+  .article {
+    padding-top: calc(64px - var(--gutter));
+  }
+
+  .article__img .container {
+    padding-inline: 64px;
+  }
+
+  .article__share {
+    margin-top: 48px;
+  }
+
+  /* === filter === */
+  .product__sidebar {
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1200px) {
+}
